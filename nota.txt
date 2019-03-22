@@ -1,0 +1,7 @@
+no subir la carpetAA node_modules para lo cual creamos .gitignore para ignorar esta carptea o totodo lo que queramos ignorar
+
+
+comandos para subir el proyecto 
+1. git init 
+2. git add .   archivos que subiremos el punto para suvir todo lo que esta en verde
+
