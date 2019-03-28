@@ -4,4 +4,28 @@ no subir la carpetAA node_modules para lo cual creamos .gitignore para ignorar e
 comandos para subir el proyecto 
 1. git init 
 2. git add .   archivos que subiremos el punto para suvir todo lo que esta en verde
+3. git config --global user.email "william_calvache@hotmail.com"
+4. git config --global user.name "william"
+5. git commit -m "Iniciando proyecto"
+6.git remote add origen https://github.com/william1-2/aprendiendo-nuxt.git        esta en la cuenta git sin traducir
+7. git push -u origin master
 
+8 ingresar por comandos usuario y contraseña
+
+
+
+
+para descargar 
+vamos a la parte del pryecto y le damos en descargar y seleccionamos el linck que nos genera
+git clone https://github.com/william1-2/aprendiendo-nuxt.git
+cd .\nombre de la carpeta que tenemos el pryecto\        seleccionamos la carpeta
+npm install   intalamos el proyecto
+
+
+
+
+nota 
+nunca trabajar con rutas acsolutas siempre trabajar con rutas relativas  
+rutas formas de dijitar
+./desde donde estoy
+../ retroseda una carpeta 
