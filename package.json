@@ -1,15 +1,21 @@
 {
-  "name": "tab_git",
+  "name": "nuxt-web",
   "version": "1.0.0",
-  "description": "pagina1",
+  "description": "Pagina web con nuxt",
   "main": "index.js",
   "scripts": {
-    "dev": "nuxt"
+    "dev": "nuxt",
+    "generate":"nuxt generate"
   },
-  "author": "william calvache",
+  "author": "Jeyson Calvache",
   "license": "ISC",
   "dependencies": {
+    "@types/core-js": "^2.5.0",
     "bootstrap-vue": "^2.0.0-rc.15",
+    "firebase": "^5.9.2",
     "nuxt": "^2.4.5"
+  },
+  "devDependencies": {
+    "core-js": "^2.6.5"
   }
 }
